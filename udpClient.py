@@ -11,6 +11,11 @@ target_port = 9997
 # create socket object
 client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
+## original code didn't work; adding .bind() from this SO thread
+# https://stackoverflow.com/questions/37191612/issue-with-receiving-response-from-127-0-0-1-with-udp-client-in-python
+
+client.bind((target_host, target_port))
+
 # send some data
 client.sendto(b"AAABBBCCC",(target_host,target_port))
 
