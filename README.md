@@ -1,20 +1,10 @@
 
+# Black Hat Python 2nd Edition
 
+just a lil collection of the book exercises/examples
 
+it's not that deep
 
-
-
-
-
-
-# Readme: C2 Using Python 
-
-
-
-
-Command-and-Control Server using Python3
- just a lil project using Blackhat Python
- not that deep
  -JP
 
 
