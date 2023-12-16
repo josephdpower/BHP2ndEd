@@ -1,7 +1,6 @@
 #book exercise
 # looks similar to TCP version
-# test using nc 
-# $ nc -l 127.0.0.1 997
+# added line 16 so the fucking thing actually works
 
 import socket
 
